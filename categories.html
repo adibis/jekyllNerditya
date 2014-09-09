@@ -1,0 +1,19 @@
+---
+layout: page
+title: Categories
+order: 3
+---
+
+{% assign sortedCat = site.categories | sort %}
+{% for category in sortedCat %}
+  <h3 name="{{ category | first }}">{{ category | first | capitalize }}</h3>
+  <ul>
+  {% for posts in category %}
+    {% for post in posts %}
+      {% if post.url %}
+        <li><time>{{ post.date | date:"%d %b %Y" }}</time>: <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  </ul>
+{% endfor %}
