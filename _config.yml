@@ -8,7 +8,7 @@ permalink:        /:categories/:title
 # Setup
 title:            Nerditya
 tagline:          'by Aditya'
-description:      'Random musings of a coffee love, photographer, engineer, geek.'
+description:      'Random musings of a coffee lover, photographer, engineer, geek.'
 url:              http://nerditya.com
 baseurl:          '/'
 paginate:         1
