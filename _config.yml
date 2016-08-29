@@ -13,22 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Nerditya
+
+# Site configuration
+title:            'Nerditya'
 tagline:          'by Aditya'
 description:      'Random musings of a coffee lover, photographer, engineer, geek.'
 url:              'http://nerditya.com'
 baseurl:          '/'
 paginate:         1
-email: aditya.shevade@gmail.com
+
+# Social Media Settings
 twitter_username: adibis
 github_username:  adibis
 
 # Permalinks
-permalink:        /:categories/:title
+permalink:        /:categories/:title/
 
 author:
   name:           'Aditya Shevade'
   url:            https://twitter.com/adibis
+  email:          aditya.shevade@gmail.com
 
 gems: [jekyll-paginate]
 
