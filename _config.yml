@@ -34,7 +34,7 @@ author:
   url:            https://twitter.com/adibis
   email:          aditya.shevade@gmail.com
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-sitemap]
 
 # Build settings
 markdown:         redcarpet

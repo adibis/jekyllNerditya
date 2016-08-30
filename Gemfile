@@ -12,6 +12,7 @@ ruby RUBY_VERSION
 gem "jekyll", "3.2.1"
 
 gem "jekyll-paginate"
+gem "jekyll-sitemap"
 gem "redcarpet"
 gem "pygments.rb"
 gem "classifier-reborn"
