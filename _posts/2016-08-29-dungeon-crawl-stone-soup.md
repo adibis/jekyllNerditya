@@ -15,6 +15,8 @@ Your goal in DCSS is to dive into the dungeon and get 3 out of 15 possible runes
 
 Plus, it's so much fun. The developers have been tuning the game every release, removing grindy aspects of the game and adding new content and making the game more tactical than random luck based. We have auto-explore, auto-fight, relevant information available about most items and monsters readily available. It makes the game much more accesible than competitors. Make no mistake though, it is still an incredibly difficult game to win.
 
+I have become so fascinated that I actually looked at some of the pending [issues][4] and submitted [patches][5] for them. I found the developer team to be very friendly and actually conrtibutingto the game, though trivial patches, makes me want to play it even more.
+
 I have listed a few resources to get started. The game comes with a tutorial mode. I've recently started playing it in console mode instead of the tiles version. [My exploits][3] with DCSS. If you need recommendations, play a Minotaur Berserker.
 
 ![DCSS MiBe]({{ site.url }}/public/img/dungeon-crawl-stone-soup/dungeon-crawl-stone-soup-01.png)
@@ -38,6 +40,8 @@ I have listed a few resources to get started. The game comes with a tutorial mod
 [1]: https://crawl.develz.org
 [2]: http://www.nethack.org
 [3]: http://crawl.akrasiac.org/scoring/players/adibis.html
+[4]: https://crawl.develz.org/mantis/main_page.php
+[5]: https://github.com/crawl/crawl/commits?author=adibis
 
 [DCSS Online]: https://crawl.develz.org/play.htm
 
