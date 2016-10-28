@@ -51,7 +51,6 @@ endif
 if !&sidescrolloff
   set sidescrolloff=5   " Show next 5 columns while side-scrolling.
 endif
-set display+=lastline
 set nostartofline       " Do not jump to first character with page commands.
 ```
 
@@ -73,10 +72,8 @@ match ExtraWhitespace /\s\+$\|\t/
 While searching I prefer to have smart-case. Search will match either case unless at least one letter in search pattern is capital. You would also notice annoying highlights from previous searches sometimes, the ```<C-L>``` mapping gets rid of that. I also rend to do search and replace quite a lot and tying the whole ```%s/<search>/<replace>/``` gets too slow. So I added a binding ```<Leader>s``` to put the whole command and put the cursor at the search part of it.
 
 ```vim
-set hlsearch            " Highlight search results.
 set ignorecase          " Make searching case insensitive
 set smartcase           " ... unless the query has capital letters.
-set incsearch           " Incremental search.
 set gdefault            " Use 'g' flag by default with :s/foo/bar/.
 set magic               " Use 'magic' patterns (extended regular expressions).
 
@@ -93,17 +90,17 @@ Another really useful feature of vim is relative numbers. When turned on, the li
 
 ```vim
 " Relative numbering
-Function! NumberToggle()
+function! NumberToggle()
   if(&relativenumber == 1)
     set nornu
     set number
   else
     set rnu
   endif
-Endfunc
+endfunc
 
 " Toggle between normal and relative numbering.
-Nnoremap <leader>r :call NumberToggle()<cr>
+nnoremap <leader>r :call NumberToggle()<cr>
 ```
 
 You can also call this function every time you enter or exit the insert mode if you like that.
@@ -155,10 +152,10 @@ let g:airline_left_sep = ' '
 let g:airline_left_alt_sep = '|'
 let g:airline_right_sep = ' '
 let g:airline_right_alt_sep = '|'
-let g:airline_theme= 'serene'
+let g:airline_theme= 'gruvbox'
 ```
 
 ##Conclusion
 I've been fine-tuning the settings every week or so. This is what works for me and I am happy with it. I can sense that I am more confident with navigating multiple files and large projects even without using a file browser plugin or syntax helpers. That might change later on but for now, I like the minimalist approach. Don't agree? [Fork it](http://github.com/adibis/.nvim) and modify to your linking.
 
->    Last updated: 08-28-2016
+>    Last updated: 10-28-2016 (Removed some configuration which is now default in neovim)
