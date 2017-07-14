@@ -4,6 +4,13 @@ title: "A guide to neovim"
 category: code
 ---
 
+
+###### Last Updated:
+```
+07-13-2017: Removed neovim defaults, added more keybindings.
+10-28-2016: Removed neovim defaults.
+```
+
 I've been using vim ever since I shifted to linux a few years ago. Over the years my current vim config has gathered a lot of random settings which I probably no longer need. A few weeks ago I came across the neovim project. Neovim plans to re-write vim making it easier to maintain while providing better plugin structure, UI arcitecture, async-execution to name a few. Anyone acquianted with vim knows the horrible implementation of vim plugins and the horde of plugins to manage other plugins. I believe neovim is a welcome change, much needed to keep the project managable.
 
 After discovering neovim, I decided to write a new rc file for it based on my vim config, the sensible-vim project and a few other resources I found on the topic. This is an overview of my neovim config, how I use it and the rationale behind some of the settings.
@@ -157,5 +164,3 @@ let g:airline_theme= 'gruvbox'
 
 ##Conclusion
 I've been fine-tuning the settings every week or so. This is what works for me and I am happy with it. I can sense that I am more confident with navigating multiple files and large projects even without using a file browser plugin or syntax helpers. That might change later on but for now, I like the minimalist approach. Don't agree? [Fork it](http://github.com/adibis/.nvim) and modify to your linking.
-
->    Last updated: 10-28-2016 (Removed some configuration which is now default in neovim)
