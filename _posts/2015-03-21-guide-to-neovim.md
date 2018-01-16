@@ -7,6 +7,7 @@ category: code
 
 ###### Last Updated:
 ```
+01-15-2018: Removed neovim defaults (https://github.com/adibis/nvim/issues/5).
 07-13-2017: Removed neovim defaults, added more keybindings.
 10-28-2016: Removed neovim defaults.
 ```
@@ -34,12 +35,10 @@ Here's some of the settings I use which make vim UI and behavior a bit saner. I'
     set showmatch           " Show matching brackets.
     set number              " Show the line numbers on the left side.
     set formatoptions+=o    " Continue comment marker in new lines.
-    set textwidth=0         " Hard-wrap long lines as you type them.
     set expandtab           " Insert spaces when TAB is pressed.
     set tabstop=4           " Render TABs using this many spaces.
     set shiftwidth=4        " Indentation amount for < and > commands.
 
-    set linespace=0         " Set line-spacing to minimum.
     set nojoinspaces        " Prevents inserting two spaces after punctuation on a join (J)
 
     " More natural splits
@@ -76,7 +75,6 @@ While searching I prefer to have smart-case. Search will match either case unles
 set ignorecase          " Make searching case insensitive
 set smartcase           " ... unless the query has capital letters.
 set gdefault            " Use 'g' flag by default with :s/foo/bar/.
-set magic               " Use 'magic' patterns (extended regular expressions).
 
 " Use <C-L> to clear the highlighting of :set hlsearch.
 if maparg('<C-L>', 'n') ==# ''
