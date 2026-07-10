@@ -13,7 +13,7 @@ gem "jekyll", ">= 3.6.3"
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem "redcarpet"
-gem "pygments.rb"
+gem "rouge"
 gem "classifier-reborn"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

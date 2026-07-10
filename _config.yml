@@ -38,7 +38,7 @@ plugins: [jekyll-paginate, jekyll-sitemap]
 
 # Build settings
 markdown:         redcarpet
-highlighter:      pygments
+highlighter:      rouge
 
 # Custom vars
 version:          1.0.0
